@@ -1,0 +1,11 @@
+removeStrategy:
+  rbac: SYNC
+  items: NONE
+items:
+- kind: folder
+  name: controller-jobs
+  description: ''
+  properties:
+  - kind: envVars
+    vars:
+      GITHUB_ORGANIZATION: ${GITHUB_ORGANIZATION}
